@@ -1,0 +1,98 @@
+
+html {
+    height: 100% ;
+    display: table ; 
+    margin: auto ;
+}
+
+body {
+    background-color: #777 ;
+    color: #777 ;
+    height: 100% ;
+    display: table-cell ;
+    vertical-align: middle ;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px ;
+}
+
+.header {
+    background-color: #ebebeb ;
+    width: 960px ;
+    text-align: center ;
+    padding: 50px 0px 50px 0px ;
+    margin-top: 25px ;
+}
+
+.navigation {
+    background-color: #ebebeb ;
+    width: 960px ;
+    text-align: center ;
+    margin-top: 20px ;
+    padding: 50px 0px 50px 0px ;
+}
+
+.container {
+    display: flex ;
+    margin-top: 20px ;
+    height: 200px ;
+}
+
+.left {
+    float: left ;
+    background-color: #ebebeb ;
+    width: 470px;
+    text-align: center ;
+    position: relative ;
+    
+}
+
+.article {
+    background-color: #777 ;
+    position: absolute ; 
+    top: 25px ; 
+    left: 10px ;
+    width: 450px ;
+    color: white ;
+    height: 150px ;
+}
+
+.hs {
+    background-color: #ebebeb ;
+    position: absolute ;
+    top: 25px ;
+    left: 20px ;
+    height: 40px ;
+    width: 410px ;
+    margin-top: 10px ;
+    color: #777 ;
+
+}
+
+.ps {
+    background-color: #ebebeb ;
+    position: absolute ; 
+    top: 55px ;
+    left: 20px ;
+    height: 40px ;
+    width: 410px ;
+    color: #777 ;
+    margin-top: 30px ;
+}
+
+.right {
+    float: left ;
+    background-color:#ebebeb ;
+    width: 470px ;
+    margin-left: 20px ;
+    text-align: center ;
+    padding-top: 25px ;
+}
+
+footer {
+    background-color: #ebebeb ;
+    width: 960px ;
+    margin-top: 20px ;
+    padding: 50px 0px 50px 0px ; 
+    text-align: center ;
+    margin-bottom: 25px ;
+}
